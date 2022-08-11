@@ -1,10 +1,44 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
+    background-color: #ebebeb;
+    margin: 0;
 }
 
 header {
     background-color: #EAC926;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+main {
+    background-color: #ffff;
+    margin: 2%;
+}
+
+footer {
+    text-align: center;
+    background-color: #ffff;
+    margin: 1%;
+    padding-top: 10%;
+}
+
+h4 {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.img-logo {
+    margin: 3% 0 0 3%;
+    width: 35%;
 }
 
 .img-banner {
@@ -21,14 +55,16 @@ header {
 }
 
 .topnav input[type=text] {
-    width: 30%;
+    width: 45%;
     margin-left: 3%;
 }
 
 .fa-search {
     background-color: #ebebeb;
+    font-size: 14px;
     border-style: solid;
     border-width: 1px;
+    padding: 0.5%;
 }
 
 .compra-tc-cuotas {
@@ -42,19 +78,16 @@ header {
 .burger-menu {
     text-align: center;
     font-size: 1.2rem;
+    padding-bottom: 2%;
 }
 
 .fa-bars {
     color: #ffff;
-    padding: 3px;
+    padding: 10px;
     text-align: center;
     background-color: #1259c3;
     margin: 2%;
     border-radius: 13%;
-}
-
-h2 {
-    font-size: 24px;
 }
 
 .price {
@@ -68,3 +101,20 @@ h2 {
 .description {
     font-size: 16px;
 }
+
+.footer-icon {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #1259c3;
+}
+
+.footer-description {
+    margin: 0 0 6% 0;
+    color: #666;
+}
+
+.copyright {
+    text-align: left;
+    padding: 3%;
+    color: #666;
+} 
