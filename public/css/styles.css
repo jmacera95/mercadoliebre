@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
@@ -9,18 +13,36 @@ header {
     background-color: #EAC926;
 }
 
+nav {
+    display: none;
+}
+
 ul {
     list-style-type: none;
-    padding-left: 0;
+    padding: 1.5%; 
 }
 
 h2 {
     font-size: 24px;
+    color: #666;
 }
 
 main {
+    margin: auto;
+    width: 90%;
+}
+
+article {
     background-color: #ffff;
-    margin: 2%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div.product-detail {
+    text-align: left;
+    border-top: solid 1px #ebebeb;
+    padding: 15px;
+    line-height: 0;
 }
 
 footer {
@@ -90,16 +112,28 @@ h4 {
     border-radius: 13%;
 }
 
+.fa-truck {
+    color: #39b54a;
+    border: solid 1px #39b54a;
+    border-radius: 100%;
+    padding: 0.5%;
+}
+
 .price {
     font-size: 18px;
 }
 
 .discount {
     font-size: 16px;
+    color: #39b54a;
 }
 
 .description {
     font-size: 16px;
+    line-height: normal;
+    color: #666;
+    margin-bottom: 0;
+    display: none;
 }
 
 .footer-icon {
@@ -117,4 +151,32 @@ h4 {
     text-align: left;
     padding: 3%;
     color: #666;
-} 
+}
+
+@media (min-width: 361px) {
+    article {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    nav {
+        display: block;
+    }
+
+    .burger-menu {
+        display: none;
+    }
+
+    .description {
+        display: block;
+    }
+}
+
+@media (min-width: 769px) {
+    /* * {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    .description {
+        display: block;
+    } */
+}
