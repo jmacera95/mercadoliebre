@@ -57,6 +57,7 @@ h4 {
 .img-logo {
     margin: 3% 0 0 3%;
     width: 200px;
+    padding: 1.5%;
 }
 
 .img-banner {
@@ -88,6 +89,7 @@ h4 {
 
 .compra-tc-cuotas {
     text-align: center;
+    padding: 1.5%;
 }
 
 .nav-icon {
@@ -214,5 +216,12 @@ h4 {
 
     .topnav input[type=text] {
         width: 75%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .main-header, .main-navbar {
+        max-width: 1200px;
+        margin: auto;
     }
 }
