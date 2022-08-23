@@ -177,6 +177,86 @@ main section div article div i.fa-truck {
     align-items: center;
 }
 
+/*START REGISTER AND LOGIN CSS SECTION*/
+    /*START FORM CSS SECTION*/
+    .register-form, .login-form {
+        padding: 20px 5px;
+    }
+
+    .register-form div,
+    .login-form div {
+        margin-bottom: 30px;
+    }
+
+    .register-form div label,
+    .login-form div label {
+        display: block;
+        margin-top: -15px;
+        margin-bottom: 15px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .register-form input,
+    .login-form input {
+        width: 100%;
+        margin: auto;
+        padding: 7px 5px;
+        border: solid 0px;
+        border-radius: 4px;
+    }
+
+    .register-form input::placeholder,
+    .login-form input::placeholder {
+        font-size: 11px;
+        color:#666;
+        opacity: 80%;
+    }
+
+    .register-form .user-profile input {
+        width: 20%;
+    }
+
+    .register-form .user-profile .label-user-profile {
+        display: inline;
+        font-size: 12px;
+        font-weight: 400;
+        margin: auto;
+    }
+
+    .register-form .user-interests input {
+        width: 20%;
+        margin-bottom: 15px;
+    }
+
+    .register-form .user-interests .label-user-interests {
+        display: inline;
+        font-size: 12px;
+        font-weight: 400;
+        margin: auto auto 15px auto;
+    }
+
+    .register-form div.register-buttons,
+    .login-form div.login-buttons {
+        margin: auto;
+        text-align: center;
+    }
+
+    .register-form div.register-buttons button {
+        margin: 0px 15px;
+    }
+
+    .login-form div.login-buttons button {
+        width: 100%;
+        color: #ffff;
+        background-color: #1259c3;
+        border: solid 0px;
+        border-radius: 4px;
+        padding: 7px;
+    }
+    /*END FORM CSS SECTION*/
+/*END REGISTER AND LOGIN CSS SECTION*/
+
 @media (min-width: 361px) {
     .main-navbar {
         display: flex;
@@ -243,6 +323,16 @@ main section div article div i.fa-truck {
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
         width: 45%;
     }
+
+    /*START REGISTER AND LOGIN CSS SECTION*/
+    /*START FORM CSS SECTION*/
+    .register-form, .login-form {
+        width: 361px;
+        margin: auto;
+    }
+    /*END FORM CSS SECTION*/
+/*END REGISTER AND LOGIN CSS SECTION*/
+
 }
 
 @media (min-width: 769px) {
