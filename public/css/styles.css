@@ -34,6 +34,10 @@ article {
     margin-bottom: 10px;
 }
 
+article:hover {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
 div.product-detail {
     text-align: left;
     border-top: solid 1px #ebebeb;
@@ -44,8 +48,8 @@ div.product-detail {
 footer {
     text-align: center;
     background-color: #ffff;
-    margin: 1%;
-    padding-top: 10%;
+    margin: 1% 0%;
+    padding-top: 3%;
 }
 
 h4 {
@@ -134,6 +138,11 @@ main section div article div i.fa-truck {
     padding: 0.5%;
     position: absolute;
     margin-top: -27px;
+    transition: all 1s;
+}
+
+main section div article div i.fa-truck:hover {
+    transform: rotateZ(-90deg);
 }
 
 .price {
@@ -150,9 +159,14 @@ main section div article div i.fa-truck {
 .description {
     font-size: 16px;
     line-height: normal;
-    color: #666;
+    color: #ffff;
     margin-bottom: 0;
-    display: none;
+    display: block;
+}
+
+.description:hover {
+    color: #666;
+
 }
 
 .footer-icon {
@@ -162,7 +176,7 @@ main section div article div i.fa-truck {
 }
 
 .footer-description {
-    margin: 0 0 6% 0;
+    margin: 0 10% 6% 10%;
     color: #666;
 }
 
@@ -253,6 +267,10 @@ main section div article div i.fa-truck {
         border: solid 0px;
         border-radius: 4px;
         padding: 7px;
+    }
+
+    .login-form div.login-buttons button:hover {
+        background-color: #0022AA;
     }
     /*END FORM CSS SECTION*/
 /*END REGISTER AND LOGIN CSS SECTION*/
@@ -349,6 +367,14 @@ main section div article div i.fa-truck {
     article {
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
         width: 22%;
+    }
+
+    .footer-descriptions {
+        display: flex;
+    }
+
+    .footer-descriptions i:hover {
+        color: #39b54a;
     }
 }
 
