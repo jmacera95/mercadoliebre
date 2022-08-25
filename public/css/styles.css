@@ -131,13 +131,18 @@ h4 {
     border-radius: 13%;
 }
 
+main section div article div {
+    position: relative;
+}
+
 main section div article div i.fa-truck {
     color: #39b54a;
     border: solid 1px #39b54a;
     border-radius: 100%;
     padding: 0.5%;
     position: absolute;
-    margin-top: -27px;
+    top: -12px;
+    right: 15px;
     transition: all 1s;
 }
 
@@ -148,25 +153,27 @@ main section div article div i.fa-truck:hover {
 .price {
     font-size: 18px;
     flex-grow: 0.3;
+    margin: 0;
 }
 
 .discount {
     font-size: 16px;
     color: #39b54a;
     flex-grow: 0.7;
+    margin: 0;
 }
 
 .description {
     font-size: 16px;
     line-height: normal;
     color: #ffff;
-    margin-bottom: 0;
+    margin: 5px 0 0 0;
     display: block;
 }
 
 .description:hover {
     color: #666;
-
+    margin-top: 15px;
 }
 
 .footer-icon {
@@ -379,7 +386,7 @@ main section div article div i.fa-truck:hover {
 }
 
 @media (min-width: 1200px) {
-    .main-header, .main-navbar {
+    body {
         max-width: 1200px;
         margin: auto;
     }
