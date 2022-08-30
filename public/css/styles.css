@@ -59,9 +59,8 @@ h4 {
 }
 
 .img-logo {
-    margin: 3% 0 0 3%;
-    width: 48%;
-    padding: 1.5%;
+    margin: 10px 0 0 10px;
+    width: 30%;
 }
 
 .img-banner {
@@ -82,20 +81,29 @@ h4 {
 .topnav {
     margin-top: 3%;
     margin-bottom: 3%;
-    width: 48%
+    margin: 10px 10px 0 0;
+    width: 50%;
+    text-align: center;
+    position: relative;
 }
 
 .topnav input[type=text] {
-    width: 45%;
-    margin-left: 3%;
+    width: 100%;
+    padding: 6px;
+    border: solid 0px;
+    border-radius: 4px;
+    margin: auto; 
 }
 
 .fa-search {
-    background-color: #ebebeb;
-    font-size: 14px;
-    border-style: solid;
-    border-width: 1px;
+    background-color: #ffff;
+    color: #666;
+    font-size: 15px;
+    border-style: none;
     padding: 0.5%;
+    position: absolute;
+    top: 5px;
+    right: 0.8px;
 }
 
 .compra-tc-cuotas {
@@ -283,50 +291,7 @@ main section div article:hover .description {
 /*END REGISTER AND LOGIN CSS SECTION*/
 
 @media (min-width: 361px) {
-    .main-navbar {
-        display: flex;
-        justify-content: space-between;
-    }
-    
-    .main-navbar ul {
-        display: flex;
-    }
-
-    .main-navbar li {
-        margin: 0 5px;
-    }
-
-    ul {
-        margin: 0;
-    }
-
-    .main-header {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-
-    .img-logo {
-        margin: 4px;
-        width: 32%;
-    }
-
-    .topnav {
-        width: 32%
-    }
-
-    .topnav input[type=text] {
-        width: 75%;
-    }
-
-    .compra-tc-cuotas {
-        width: 32%;
-        text-align: left;
-    }
-
-    .burger-menu {
-        display: none;
-    }
+   
 
     .description {
         display: block;
@@ -361,14 +326,52 @@ main section div article:hover .description {
 }
 
 @media (min-width: 769px) {
-    .topnav {
-        flex-grow: 8;
-        margin: auto;
-        display: block;
+    .main-navbar {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .main-navbar ul {
+        display: flex;
     }
 
-    .topnav input[type=text] {
-        width: 85%;
+    .main-navbar li {
+        margin: 0 5px;
+    }
+
+    ul {
+        margin: 0;
+    }
+
+    .main-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .img-logo {
+        width: 30%;
+        max-width: 220px;
+    }
+
+    .topnav {
+        width: 40%;
+        margin-right: 0;
+    }
+
+    /* .topnav input[type=text] {
+        width: 75%;
+    } */
+
+    .compra-tc-cuotas {
+        width: 20%;
+        text-align: center;
+        margin: 10px 10px 0 0;
+        padding: 0;
+    }
+
+    .burger-menu {
+        display: none;
     }
 
     article {
